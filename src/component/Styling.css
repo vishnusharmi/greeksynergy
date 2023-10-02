@@ -1,0 +1,89 @@
+.voteCount{
+    text-align: center;
+    font-weight: bold;
+}
+.voteBody{
+    /* padding: 30px; */
+    padding-right: 5px;
+    padding-top: 50px;
+    
+}
+.votes{
+    margin-top: 20px;
+}
+.images{
+    height: 180px;
+    width: 160px;
+}
+.symbol{
+    font-size:x-large;
+}
+.titls{
+    font-weight: bold;
+    color: rgb(112, 109, 109);
+}
+.title{
+    padding-top: 5px;
+}
+
+.people{
+    color:rgb(16, 177, 142);
+}
+.nametitle{
+    font-size:larger;
+}
+.main{
+    background-color: darkorchid;
+}
+.movies{
+    margin-top: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: white;
+}
+.allimags{
+    padding-top: 10px;
+}
+.watch{
+    background-color: dodgerblue;
+  padding: 6px;
+   text-align: center;
+   justify-content: center;
+   bottom: 2px;
+   width: 150px;
+   color: white;
+  
+   
+}
+@media screen and (max-width: 768px) {
+    .movies {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .movies {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .voteBody {
+        padding: 10px;
+        padding-top: 30px;
+    }
+
+    .images {
+        height: 120px;
+        width: 100px;
+    }
+
+    .voteCount {
+        font-size: large;
+    }
+
+    .watch {
+        padding: 5px;
+        font-size: small;
+    }
+}
